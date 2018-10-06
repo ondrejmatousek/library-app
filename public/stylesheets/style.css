@@ -1,0 +1,147 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+    padding: 50px;
+
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    padding: 2rem;
+    
+}
+
+
+
+.sectiondark {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+.bg-inverse{
+    background-color: #292b2c;
+}
+
+
+button.coolbutton {
+    background-color: slateblue;
+    color: white;
+    margin: auto;
+    display: block;
+}
+
+button.coolbutton2 {
+    background-color: #2e1e25;
+    color: white;
+    margin: auto;
+    display: block;
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem 0rem;
+}
+.modal-body{
+    margin: auto;
+}
+
+h5.modal-title{
+    margin: auto;
+      
+}
+
+.img-fluid{
+    padding: 3px;
+}
+
+.imgCenter{
+    display: block;
+    margin: auto;
+}
+
+.btnCenter{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 66%;
+}
+
+img.footerImg{
+    padding: 15px;
+}
+
+.fa-facebook-square{
+    color:#3b5998;
+    
+}
+.fa-instagram{
+    color:white;
+    
+}
+
+.fa-google-plus-square{
+    color:#dd4b39;
+    
+}
+
+.socialwrapper{
+    margin: auto;
+}
+
+.fab{
+    margin: 10px;
+}
+
+#ht-cta-section {
+    background-image: url(http://creativedigitalera.com/wp-content/uploads/2018/06/hmg-topbanner-2017.jpg);
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#ht-cta-section .ht-cta-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+#ht-cta-section .ht-section {
+    padding: 150px 0;
+    background: none;
+    position: relative;
+}
+
+div.ht-container{
+    margin: auto;
+    padding: 30px;
+    width:60%;
+}
+
+div.section1{
+    text-align: center;
+}
+h2.font1{
+    padding-top:25px; 
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 200%;
+    text-align: center;
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+

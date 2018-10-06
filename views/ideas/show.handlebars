@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap_4/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap_4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style_form.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>Show</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Databáze knihovny</h1>
+
+        <hr class="my-4">
+    </div>
+
+    {{#each ideas}}
+    <div class="card card-body mb-2 col-sm-12 col-md-12">
+
+        <h4>Název knihy: {{title}}</h4>
+        <p>Autor: {{autor}}</p>
+        <p>Počet stran: {{pagenum}}</p>
+        <p>Datum vydání knihy: {{publication}}</p>
+        <a class="btn btn-dark mb-1" href="/ideas/edit/{{id}}">Edit</a>
+        <form method="POST" action="/ideas/{{id}}?_method=DELETE">
+            <input type="hidden" name="_method" value="DELETE">
+            <input type="submit" class="btn btn-danger btn-block" value="Delete">
+        </form>
+    </div>
+    {{else}}
+    <h3>Databáze je prázdná</h3>
+    {{/each}}
+
+</body>
+
+</html>

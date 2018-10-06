@@ -1,0 +1,26 @@
+body{
+    
+    background-color: #eceeef;
+       
+}
+
+div.jumbotron{
+    text-align: center;
+    background: none;
+    padding: 17px;
+    margin: 0;
+}
+
+div.ulozit-center{
+    margin: auto;
+    display: block;
+    
+}
+
+div.card{
+    margin:auto;
+    background-color: #eceeef;
+    width: 60rem;
+}
+
+

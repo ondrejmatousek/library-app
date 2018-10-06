@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap_4/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap_4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style_form.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>Form</title>
+</head>
+
+<body>
+
+
+
+    <div class="jumbotron">
+        <h1 class="display-4">Přidej knihu!</h1>
+        <p class="lead">Pro přidání knihy do databáze prosím vyplňte všechna pole formuláře</p>
+        <hr class="my-4">
+    </div>
+<div class="card card-body mb-2 col-sm-12 col-md-12">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-12 col-md-8">
+            <form action="/ideas" method="post">
+                {{#each errors}}
+                <div class="alert alert-danger">{{text}}</div>
+                {{else}}
+                {{/each}}
+                <div class="form-group">
+                    <label for="autor">Autor knihy</label>
+                    <input type="text" class="form-control" placeholder="J.R.R. Tolkien" name="autor">
+                </div>
+                <div class="form-group">
+                    <label for="title">Název knihy</label>
+                    <input type="text" class="form-control" placeholder="Pán Prstenů" name="title">
+                </div>
+                <div class="form-group">
+                    <label for="pagenum">Počet stran</label>
+                    <input type="number" class="form-control" name="pagenum">
+                </div>
+                <div class="form-group">
+                    <label for="publication">Rok vydání</label>
+                    <input type="date" class="form-control" name="publication">
+                </div>
+
+                <div class="row">
+                    <div class="ulozit-center">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Uložit</button>
+                    </div>
+                </div>
+
+
+            </form>
+
+        </div>
+        <div class="col"></div>
+    </div>
+    
+</div>
+
+
+
+
+</body>
+
+</html>
