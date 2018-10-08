@@ -5,13 +5,19 @@
 
 }
 
-.sectionLight {
-    background-color: #eceeef;
-    padding: 2rem;
-    
+div.row{
+    margin: 0px;
 }
 
+.sectionLight {
+    background-color: #eceeef;
+}
 
+h1.display-3{
+margin: auto;
+display: block;
+text-align: center;
+}
 
 .sectiondark {
     background-color: #cccccc;
@@ -59,13 +65,19 @@ h5.modal-title{
     margin: auto;
 }
 
+
 .btnCenter{
     display: block;
-    margin: auto;
     margin-top: 15px;
     margin-bottom: 20px;
-    width: 66%;
+    min-width: 315px;
+    max-width: auto;
 }
+
+div.napis{
+    padding: 30px;
+}
+
 
 img.footerImg{
     padding: 15px;
@@ -93,47 +105,34 @@ img.footerImg{
     margin: 10px;
 }
 
-#ht-cta-section {
-    background-image: url(http://creativedigitalera.com/wp-content/uploads/2018/06/hmg-topbanner-2017.jpg);
+div.podklad{
+    background-image: url(http://creativedigitalera.com/file/uploads/2018/06/hmg-topbanner-2017.jpg);
     color: #FFF;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
-}
-
-#ht-cta-section .ht-cta-overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0.4);
-}
-
-#ht-cta-section .ht-section {
-    padding: 150px 0;
-    background: none;
-    position: relative;
+    background-position: 50%;
+    padding: 70px;
 }
 
 div.ht-container{
     margin: auto;
-    padding: 30px;
-    width:60%;
+    padding: 50px;
+    width:100%;
 }
 
-div.section1{
-    text-align: center;
-}
-h2.font1{
+div.ht-cta-title-tagline h2.font1{
     padding-top:25px; 
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 200%;
     text-align: center;
-
 }
-    
+
+div.col-12{
+    padding: 0px;
+}
+
+
 
 
 
