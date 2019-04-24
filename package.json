@@ -1,7 +1,7 @@
 {
   "name": "library",
   "version": "1.0.0",
-  "description": "App to create video ideas",
+  "description": "App to create library",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -14,7 +14,7 @@
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.6",
-    "handlebars": "^4.0.12",
+    "handlebars": "^4.1.2",
     "install": "^0.12.1",
     "method-override": "^3.0.0",
     "mongoose": "^5.3.1",
