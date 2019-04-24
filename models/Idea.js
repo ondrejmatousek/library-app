@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+
 //Create Schema
 const IdeaSchema = new Schema({
     autor:{
@@ -16,8 +17,8 @@ const IdeaSchema = new Schema({
         required: true
     },
     publication:{
-        type: Date,
-               
+        type: String,
+              
     }
 });
 

@@ -118,7 +118,7 @@ app.post('/ideas', (req, res) => {
             autor: req.body.autor,
             title: req.body.title,
             pagenum: req.body.pagenum,
-            publication: req.body.pagenum
+            publication: req.body.publication
         });
     } else {
         const newUser = {
